@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './common/style/frame.css'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);  
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// );  
+ReactDOM.render(<App />, document.getElementById('root'))
