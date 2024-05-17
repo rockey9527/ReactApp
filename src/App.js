@@ -1,6 +1,7 @@
 import React, {Fragment} from "react";
 import Login from './pages/login'
 import Home from './pages/home'
+import City from './pages/city'
 import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 
 
@@ -17,6 +18,7 @@ function App() {
         <Switch>
           <Route path="/login" component={Login}/>
           <Route path="/home" component={Home}/>
+          <Route path="/city" component={City}/>
           <Route exat path="/" component={Home} />
           <Redirect to={'/home'}></Redirect>
         </Switch>
